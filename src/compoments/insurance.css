@@ -1,0 +1,277 @@
+.insurance {
+  /* margin-top: 130px; */
+}
+
+/* ---------- HEADER ---------- */
+.header {
+  margin: auto;
+  text-align: center;
+  padding: 130px 9px;
+  background-color: #fff;
+}
+
+.header > h1 {
+  color: #0d47a1;
+  font-size: 77px;
+  padding-top: 50px;
+}
+
+.header > p {
+  color: #777777;
+  font-weight: 700;
+  font-size: larger;
+}
+
+/* ---------- HERO SECTION ---------- */
+.hero-insurance {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 60px auto;
+  background-color: #fdfdfd;
+  border: 1px solid #777777;
+  border-radius: 20px;
+  flex-wrap: wrap;
+}
+
+.insurance-image {
+  width: 50%;
+}
+
+.insurance-image > img {
+  width: 100%;
+  height: auto;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.insurance-title {
+  width: 50%;
+}
+
+.insurance-title > p {
+  margin: 80px;
+  text-align: center;
+  color: #777777;
+  font-size: x-large;
+}
+
+.insurance-title > p > strong {
+  color: #0d47a1;
+}
+
+/* ---------- FEATURES & COVERAGE ---------- */
+.intro {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #fdfdfd;
+  border: 1px solid #777777;
+  border-radius: 20px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.features {
+  margin: 60px;
+  width: 40%;
+  min-width: 280px;
+}
+
+.features > h2 {
+  color: #0d47a1;
+  font-weight: bolder;
+  font-size: 29px;
+}
+
+.features > ul > li {
+  color: #777777;
+  list-style-type: none;
+  padding: 12px 0px;
+   font-size: large;
+}
+
+.features > ul > li > b {
+  font-weight: bolder;
+  color: #f97316;
+}
+
+.coverage {
+  border-left: 1px solid #777777;
+  margin-top: 40px;
+  width: 40%;
+  min-width: 280px;
+}
+
+.coverage > h2 {
+  color: #0d47a1;
+  margin: 0px 60px;
+  margin-top: 60px;
+}
+
+.coverage > ul {
+  margin: 0px 60px;
+}
+
+.coverage > ul > li {
+  color: #777777;
+  padding: 12px 0px;
+  font-size: large;
+}
+
+.coverage > ul > li > b {
+  color: #f97316;
+}
+
+/* ---------- ADDONS ---------- */
+.addons {
+  background-color: #0d47a1;
+  margin: 30px 0px;
+  padding: 30px;
+}
+
+.addons > h1 {
+  color: #f97316;
+  padding-left: 36px;
+  text-align: center;
+}
+
+.addon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.addon-list > span {
+  background-color: #ffffff1a;
+  padding: 20px 30px;
+  margin: 10px;
+  border-radius: 15px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+/* ---------- FOOTER ---------- */
+.motor-footer {
+  background-color: #f97316;
+  padding: 60px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.motor-footer > h3 {
+  font-size: 37px;
+}
+
+.motor-footer > p {
+  font-size: larger;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+/* ---------- RESPONSIVE DESIGN ---------- */
+
+/* Tablet view */
+@media (max-width: 1024px) {
+  .header > h1 {
+    font-size: 60px;
+  }
+
+  .insurance-title > p {
+    margin: 40px;
+    font-size: large;
+  }
+
+  .features,
+  .coverage {
+    width: 45%;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .header {
+    padding: 80px 20px;
+  }
+
+  .header > h1 {
+    font-size: 40px;
+    padding-top: 20px;
+  }
+
+  .hero-insurance {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .insurance-image,
+  .insurance-title {
+    width: 100%;
+  }
+
+  .insurance-title > p {
+    margin: 20px;
+    font-size: 1rem;
+  }
+
+  .intro {
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+  }
+
+  .features,
+  .coverage {
+    width: 90%;
+    margin: 20px;
+    border-left: none;
+    border-top: 1px solid #777777;
+  }
+
+  .addons {
+    padding: 20px;
+  }
+
+  .addon-list > span {
+    width: 80%;
+    padding: 15px;
+    font-size: 0.9rem;
+  }
+
+  .motor-footer > h3 {
+    font-size: 28px;
+  }
+
+  .motor-footer > p {
+    font-size: 1rem;
+  }
+}
+
+/* Small mobile (less than 480px) */
+@media (max-width: 480px) {
+  .header > h1 {
+    font-size: 32px;
+  }
+
+  .insurance-title > p {
+    font-size: 0.95rem;
+  }
+
+  .features > h2,
+  .coverage > h2 {
+    font-size: 22px;
+  }
+
+  .addon-list > span {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .motor-footer {
+    padding: 40px 10px;
+  }
+}

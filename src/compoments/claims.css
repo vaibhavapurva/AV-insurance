@@ -1,0 +1,287 @@
+/* === CLAIMS HERO SECTION === */
+.claims-hero {
+  background: url("https://images.pexels.com/photos/3182835/pexels-photo-3182835.jpeg") no-repeat center/cover;
+  padding: 130px 8%;
+  text-align: center;
+  color: #fff;
+}
+
+.claims-hero h1 {
+  font-weight: 800;
+  font-size: 48px;
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+
+.claims-hero p {
+  font-size: 20px;
+  line-height: 1.6;
+  width: 70%;
+  margin: auto;
+  color: #fff;
+}
+
+.claim-btn {
+  background-color: #f97316;
+  padding: 15px 45px;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.claim-btn:hover {
+  background-color: #ff8c42;
+}
+
+/* === WHY CLAIMS PROCESS === */
+.why-claims-process {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.why-claims-process h1 {
+  color: #1565c0;
+  padding-bottom: 40px;
+  font-size: 42px;
+}
+
+.why-claims-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.why-claims-card {
+  background-color: #0d47a1;
+  color: #fff;
+  margin: 10px;
+  padding: 50px 30px;
+  border-radius: 30px;
+  width: 28%;
+  min-width: 280px;
+  transition: 0.3s;
+}
+
+.why-claims-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.why-claims-card h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.why-claims-card p {
+  color: #fff;
+  line-height: 1.5;
+}
+
+/* === OUR CLAIMS PROCESS === */
+.our-chaims-process {
+  background-color: #f1f4fb;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.our-chaims-process h1 {
+  color: #000;
+  font-size: 42px;
+  padding-bottom: 50px;
+}
+
+.claims-process-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.claims-process-card {
+  background-color: #fff;
+  padding: 50px 30px;
+  border-radius: 30px;
+  width: 28%;
+  min-width: 280px;
+  transition: 0.3s;
+}
+
+.claims-process-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.claims-process-card h3 {
+  color: #000;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.claims-process-card > p {
+    color: #000;
+}
+/* === CUSTOMER SAYS === */
+.customer-says h1 {
+  color: #000;
+  font-size: 42px;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.customer-say-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px 40px 60px;
+}
+
+.customer-say-card {
+  background-color: #f1f4fb;
+  padding: 50px 30px;
+  border-radius: 30px;
+  width: 40%;
+  min-width: 280px;
+  transition: 0.3s;
+}
+
+.customer-say-card >p{
+    color: #000;
+}
+
+.customer-say-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* === HELP SECTION === */
+.help {
+  background-color: #0d47a1;
+  text-align: center;
+  padding: 80px 20px;
+  color: #fff;
+}
+
+.help p {
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 0 20px;
+}
+
+.help-contact {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  width: 25%;
+  min-width: 280px;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.help-contact p {
+  color: #fff;
+  font-weight: 500;
+  padding: 6px 0;
+}
+
+/* === CLAIMS BANNER === */
+.chaims-banner {
+  background-color: #1565c0;
+  text-align: center;
+  padding: 90px 20px;
+  color: #fff;
+}
+
+.chaims-banner h2 {
+  padding-bottom: 40px;
+  font-size: 34px;
+}
+
+/* === RESPONSIVE DESIGN === */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .claims-hero h1 {
+    font-size: 40px;
+  }
+
+  .why-claims-card,
+  .claims-process-card,
+  .customer-say-card {
+    width: 40%;
+  }
+
+  .help-contact {
+    width: 40%;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 768px) {
+  .claims-hero {
+    padding: 100px 5%;
+  }
+
+  .claims-hero h1 {
+    font-size: 34px;
+  }
+
+  .claims-hero p {
+    font-size: 16px;
+    width: 85%;
+  }
+
+  .why-claims-card,
+  .claims-process-card,
+  .customer-say-card {
+    width: 80%;
+  }
+
+  .help-contact {
+    width: 60%;
+  }
+
+  .why-claims-process h1,
+  .our-chaims-process h1,
+  .customer-says h1 {
+    font-size: 32px;
+  }
+}
+
+/* Small Mobiles */
+@media (max-width: 480px) {
+  .claims-hero {
+    padding: 80px 4%;
+  }
+
+  .claims-hero h1 {
+    font-size: 28px;
+  }
+
+  .claims-hero p {
+    font-size: 15px;
+  }
+
+  .claim-btn {
+    padding: 12px 30px;
+    font-size: 14px;
+  }
+
+  .why-claims-card,
+  .claims-process-card,
+  .customer-say-card {
+    width: 90%;
+    padding: 40px 20px;
+  }
+
+  .help-contact {
+    width: 80%;
+  }
+
+  .chaims-banner h2 {
+    font-size: 26px;
+  }
+}

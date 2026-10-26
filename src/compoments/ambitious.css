@@ -1,0 +1,98 @@
+/* Base Styling */
+.slider-container {
+  width: 100%;
+  max-width: 1200px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  background: #fff;
+  padding: 20px;
+  margin: 60px auto;
+}
+
+.slider {
+  display: flex;
+  transition: transform 9s ease;
+}
+
+.slider img {
+  width: calc(100% / 7); /* Default: 7 images visible on large screen */
+  object-fit: cover;
+  height: 150px;
+  border-radius: 10px;
+}
+
+/* Abitions Section */
+.abitions-block {
+  margin: auto;
+  padding: 90px 20px;
+  text-align: center;
+}
+
+.abitions-block > h1 {
+  color: #1565c0;
+  padding-bottom: 20px;
+  font-size: 2rem;
+}
+
+.abitions-block p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* 🌐 RESPONSIVE DESIGN */
+
+/* Tablets (<=1024px) */
+@media (max-width: 1024px) {
+  .slider img {
+    width: calc(100% / 5); /* Show 5 images */
+    height: 140px;
+  }
+
+  .abitions-block {
+    padding: 70px 30px;
+  }
+
+  .abitions-block > h1 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Mobiles (<=768px) */
+@media (max-width: 768px) {
+  .slider img {
+    width: calc(100% / 3); /* Show 3 images */
+    height: 120px;
+  }
+
+  .abitions-block {
+    padding: 50px 20px;
+  }
+
+  .abitions-block > h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Small Mobiles (<=480px) */
+@media (max-width: 480px) {
+  .slider img {
+    width: calc(100% / 2); /* Show 2 images */
+    height: 100px;
+  }
+
+  .abitions-block {
+    padding: 40px 15px;
+  }
+
+  .abitions-block > h1 {
+    font-size: 1.3rem;
+  }
+
+  .abitions-block p {
+    font-size: 0.9rem;
+  }
+}

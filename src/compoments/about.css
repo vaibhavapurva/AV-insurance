@@ -1,0 +1,368 @@
+.about{
+    background-color: #f9f9f9;
+}
+
+.about-hero {
+  margin-top: 0px;
+  background: url("https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg")
+    no-repeat center/cover;
+  color: #fff;
+  padding: 130px 8%;
+  text-align: center;
+}
+
+.about-hero >h1{
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 57px;
+}
+
+.about-hero> p{
+    padding-bottom: 10px;
+    font-weight: 200;
+    font-size: 25px;
+    color: #fff;
+    width: 70%;
+    margin: auto;
+}
+.whoweare{
+    background-color: #fff;
+    border: 1px solid 0 5px 22px rgba(0, 0, 0, 0.9);
+    width: 70%;
+    margin: 60px auto ;
+    border-radius: 30px;
+}
+.whoweare> h1{
+    text-align: center;
+    padding: 60px 0px 30px 0px;
+    color: #0D47A1;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.whoweare> p{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    color: #333;
+    font-size: 17px;
+    padding-bottom: 60px;
+}
+
+.vision_mission{
+    display: flex;
+    justify-content: space-around;
+}
+
+.vision_card{
+    background-color: #fff;
+    margin: 70px;
+    padding: 70px;
+    border-radius: 30px;
+}
+.vision_card h2{
+    color: #0D47A1;
+}
+.vision_card p{
+    padding: 10px 0px;
+    text-align: start;
+}
+
+.Choose{
+    background-color: #fff;
+}
+
+.Choose > h1{
+    color: #0D47A1;
+    text-align: center;
+    padding: 60px;
+}
+
+.choose-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.chosse-carda{
+    background-color: #0D47A1;
+    border-radius: 30px;
+    text-align: center;
+    padding: 40px;
+    width: 330px;
+    height: 230px;
+    margin: 20px;
+}
+.chosse-carda> h3{
+    padding: 10px;
+}
+.chosse-carda>p{
+    color: #fff;
+}
+.achievements{
+    background:#1565C0;
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+    align-items: center;
+}
+
+.achi-card{
+    text-align: center;
+}
+
+.achi-card> h2{
+    font-weight: bolder;
+    font-size: 47px;
+
+}
+
+.achi-card> p{
+    color: #fff;
+}
+
+.banner{
+    background-color: #0D47A1;
+    margin-bottom: 3px;
+    height: 300px;
+    text-align: center;
+    padding: 60px;
+}
+
+.banner> p{
+    color: #fff;
+    padding: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-primary{
+    background-color: #F97316;
+    padding: 20px 35px;
+    margin: 20px;
+    border-radius: 30px;
+}.about {
+  background-color: #f9f9f9;
+}
+
+/* === Hero Section === */
+.about-hero {
+  margin-top: 0px;
+  background: url("https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg") no-repeat center/cover;
+  color: #fff;
+  padding: 130px 8%;
+  text-align: center;
+}
+.about-hero h1 {
+  padding: 20px;
+  font-weight: bolder;
+  font-size: 57px;
+}
+.about-hero p {
+  padding-bottom: 10px;
+  font-weight: 200;
+  font-size: 25px;
+  color: #fff;
+  width: 70%;
+  margin: auto;
+}
+
+/* === Who We Are === */
+.whoweare {
+  background-color: #fff;
+  width: 70%;
+  margin: 60px auto;
+  border-radius: 30px;
+  box-shadow: 0 5px 22px rgba(0, 0, 0, 0.2);
+}
+.whoweare h1 {
+  text-align: center;
+  padding: 60px 0 30px;
+  color: #0d47a1;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.whoweare p {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  color: #333;
+  font-size: 17px;
+  padding-bottom: 60px;
+}
+
+/* === Vision & Mission === */
+.vision_mission {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.vision_card {
+  background-color: #fff;
+  margin: 30px;
+  padding: 50px;
+  border-radius: 30px;
+  width: 35%;
+  box-shadow: 0 5px 22px rgba(0, 0, 0, 0.2);
+}
+.vision_card >h2 {
+  color: #0d47a1;
+}
+.vision_card >p {
+  padding: 10px 0;
+  text-align: start;
+  color: #333;
+}
+
+/* === Why Choose Us === */
+.Choose {
+  background-color: #fff;
+  text-align: center;
+}
+.Choose h1 {
+  color: #0d47a1;
+  padding: 60px 20px;
+}
+.choose-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.chosse-carda {
+  background-color: #0d47a1;
+  border-radius: 30px;
+  text-align: center;
+  padding: 40px;
+  width: 320px;
+  margin: 20px;
+  color: #fff;
+  transition: 0.3s;
+}
+.chosse-carda:hover {
+  background-color: #1565c0;
+  transform: translateY(-5px);
+}
+.chosse-carda h3 {
+  padding: 10px;
+}
+
+/* === Achievements === */
+.achievements {
+  background: #1565c0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 60px 20px;
+  color: #fff;
+  text-align: center;
+}
+.achi-card h2 {
+  font-weight: bolder;
+  font-size: 47px;
+}
+.achi-card p {
+  font-size: 18px;
+}
+
+/* === Banner === */
+.banner {
+  background-color: #0d47a1;
+  text-align: center;
+  padding: 60px 20px;
+  color: #fff;
+}
+.banner p {
+  padding: 18px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+.btn-primary {
+  background-color: #f97316;
+  padding: 15px 35px;
+  margin: 20px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background-color: #ff8c42;
+}
+
+/* === Responsive Design === */
+@media (max-width: 1024px) {
+  .about-hero h1 {
+    font-size: 45px;
+  }
+  .about-hero p {
+    width: 85%;
+    font-size: 20px;
+  }
+  .whoweare {
+    width: 85%;
+  }
+  .vision_card {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-hero {
+    padding: 100px 5%;
+  }
+  .about-hero h1 {
+    font-size: 38px;
+  }
+  .about-hero p {
+    font-size: 18px;
+  }
+  .whoweare {
+    width: 90%;
+  }
+  .whoweare p {
+    width: 85%;
+  }
+  .vision_card {
+    width: 90%;
+    margin: 20px;
+    padding: 40px;
+  }
+  .achievements {
+    flex-direction: column;
+    height: auto;
+    gap: 30px;
+  }
+  .achi-card h2 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-hero {
+    padding: 80px 5%;
+  }
+  .about-hero h1 {
+    font-size: 32px;
+  }
+  .about-hero p {
+    font-size: 16px;
+  }
+  .whoweare {
+    width: 95%;
+  }
+  .vision_card {
+    width: 95%;
+    padding: 30px;
+  }
+  .chosse-carda {
+    width: 90%;
+    padding: 30px;
+  }
+  .achi-card h2 {
+    font-size: 32px;
+  }
+  .banner p {
+    font-size: 16px;
+  }
+}

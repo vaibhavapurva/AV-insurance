@@ -1,0 +1,125 @@
+.footer {
+  background-color: #0D47A1;
+  padding: 40px 20px;
+  color: #fff;
+}
+
+.footer-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 20px 0;
+}
+
+/* Footer Logo Section */
+.footer-logo {
+  width: 25%;
+  min-width: 220px;
+  text-align: center;
+}
+
+.footer-logo > img {
+  width: 60%;
+  border-radius: 50%;
+}
+
+.footer-heading {
+  color: #F97316;
+  font-weight: bolder;
+  font-size: 27px;
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.footer-list > ul {
+  margin: 10px 0;
+  padding: 0;
+}
+
+.footer-list > ul > li {
+  list-style-type: none;
+  margin: 10px 0;
+  font-size: 17px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-list > ul > li:hover {
+  color: #F97316;
+}
+
+.footer > h4 {
+  border-top: 1px solid #F97316;
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+/* 🌐 RESPONSIVE DESIGN */
+
+/* Tablets (<=1024px) */
+@media (max-width: 1024px) {
+  .footer-logo {
+    width: 35%;
+  }
+
+  .footer-heading {
+    font-size: 24px;
+  }
+
+  .footer-list > ul > li {
+    font-size: 16px;
+  }
+}
+
+/* Mobiles (<=768px) */
+@media (max-width: 768px) {
+  .footer-block {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-logo {
+    width: 50%;
+  }
+
+  .footer-heading {
+    font-size: 22px;
+    margin-top: 20px;
+  }
+
+  .footer-list > ul > li {
+    font-size: 15px;
+  }
+
+  .footer > h4 {
+    font-size: 13px;
+  }
+}
+
+/* Small Mobiles (<=480px) */
+@media (max-width: 480px) {
+  .footer {
+    padding: 30px 10px;
+  }
+
+  .footer-logo {
+    width: 70%;
+  }
+
+  .footer-heading {
+    font-size: 20px;
+  }
+
+  .footer-list > ul > li {
+    font-size: 14px;
+  }
+
+  .footer > h4 {
+    font-size: 12px;
+  }
+}

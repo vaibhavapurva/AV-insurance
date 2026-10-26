@@ -1,0 +1,224 @@
+/* === Main Section === */
+.policies-main {
+  background-color: #f4f8ff;
+}
+
+/* === Hero Section === */
+.policies-hero {
+  background: url("https://images.pexels.com/photos/3182835/pexels-photo-3182835.jpeg") no-repeat center/cover;
+  padding: 130px 8%;
+  text-align: center;
+  color: #fff;
+}
+
+.policies-hero h1 {
+  padding: 80px 0 20px 0;
+  font-weight: 800;
+  font-size: 48px;
+}
+
+.policies-hero p {
+  color: #fff;
+  font-size: 20px;
+  width: 70%;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* === Our Plans Section === */
+.our-plan h1 {
+  padding: 90px 20px;
+  color: #1565c0;
+  text-align: center;
+  font-size: 42px;
+}
+
+.plan-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 40px 60px;
+  gap: 30px;
+}
+
+.plan-card {
+  width: 25%;
+  min-width: 280px;
+  background-color: #fff;
+  box-shadow: 0 5px 22px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  padding: 20px;
+  transition: 0.3s ease-in-out;
+  text-align: left;
+}
+
+.plan-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.plan-card img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.plan-card h3 {
+  color: #1565c0;
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+.plan-card p {
+  color: #444;
+  font-size: 16px;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+
+.plan-card a {
+  color: #f97316;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.plan-card a:hover {
+  text-decoration: underline;
+}
+
+/* === Why Choose Our Insurance Plans === */
+.wcoip {
+  background-color: #0d47a1;
+  text-align: center;
+  padding: 60px 20px;
+  color: #fff;
+}
+
+.wcoip h1 {
+  padding-bottom: 20px;
+  font-size: 36px;
+}
+
+.wcoip ul {
+  margin: auto;
+  width: fit-content;
+}
+
+.wcoip ul li {
+  list-style-type: none;
+  padding: 8px 0;
+  font-size: 20px;
+}
+
+/* === Banner Section === */
+.banner {
+  background-color: #1565c0;
+  text-align: center;
+  padding: 60px 20px;
+  color: #fff;
+}
+
+.banner p {
+  padding: 18px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.btn-primary {
+  background-color: #f97316;
+  padding: 15px 35px;
+  margin: 20px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #ff8c42;
+}
+
+/* === Responsive Design === */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .policies-hero h1 {
+    font-size: 40px;
+  }
+
+  .policies-hero p {
+    font-size: 18px;
+    width: 80%;
+  }
+
+  .plan-card {
+    width: 40%;
+  }
+
+  .our-plan h1 {
+    font-size: 36px;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 768px) {
+  .policies-hero {
+    padding: 100px 5%;
+  }
+
+  .policies-hero h1 {
+    font-size: 34px;
+  }
+
+  .policies-hero p {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .plan-card {
+    width: 80%;
+  }
+
+  .wcoip h1 {
+    font-size: 28px;
+  }
+
+  .wcoip ul li {
+    font-size: 18px;
+  }
+}
+
+/* Small Mobiles */
+@media (max-width: 480px) {
+  .policies-hero {
+    padding: 80px 4%;
+  }
+
+  .policies-hero h1 {
+    font-size: 28px;
+  }
+
+  .policies-hero p {
+    font-size: 15px;
+  }
+
+  .plan-card {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .plan-card h3 {
+    font-size: 20px;
+  }
+
+  .banner p {
+    font-size: 16px;
+  }
+
+  .btn-primary {
+    padding: 12px 25px;
+  }
+}

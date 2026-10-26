@@ -1,0 +1,224 @@
+/* === Base Section === */
+.hero-main {
+  margin-top: 0px;
+  background: url('https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg') no-repeat center/cover;
+  color: #fff;
+  padding: 130px 8%;
+  text-align: left;
+}
+.hero-main h1 {
+  padding-bottom: 20px;
+  font-weight: bolder;
+  font-size: 60px;
+}
+.hero-main p {
+  padding-bottom: 10px;
+  font-weight: 300;
+  font-size: 24px;
+  color: #fff;
+}
+
+.hero-btn {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hero-btn button {
+  margin: 10px 12px 0px 0px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-weight: 700;
+}
+.quote-btn {
+  border: transparent;
+  background-color: #F97316;
+}
+.claim-btn {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+/* === Solutions === */
+.solution-main {
+  padding-top: 70px;
+  text-align: center;
+  color: black;
+}
+.Sol-heading {
+  color: black;
+  padding-bottom: 20px;
+}
+.sol-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sol-card {
+  width: 22%;
+  background-color: #fff;
+  margin: 20px;
+  padding: 30px;
+  box-shadow: 0 5px 22px rgba(0, 0, 0, 0.5);
+  border-radius: 30px;
+  text-align: center;
+}
+.sol-card h2 {
+  color: black;
+}
+.sol-card p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #222;
+}
+
+/* === Choose Section === */
+.chosse-main {
+  background-color: #1565C0;
+  margin-top: 70px;
+  text-align: center;
+}
+.chosse-main h2 {
+  padding: 40px;
+  font-size: 30px;
+  color: white;
+}
+.chosse-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 40px 60px 40px;
+}
+.chosse-card {
+  margin: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  border-radius: 20px;
+  width: 280px;
+}
+
+/* === Figures === */
+.figer-main {
+  background-color: #F97316;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 0;
+}
+.figer-cards {
+  text-align: center;
+}
+.figer-cards h1 {
+  padding-bottom: 10px;
+}
+
+/* === Feedback === */
+.feedback-heading {
+  color: black;
+  text-align: center;
+  padding: 70px 20px 40px;
+}
+.feedback-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.feedback-card {
+  padding: 40px 30px;
+  width: 330px;
+  box-shadow: 0 5px 22px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  text-align: center;
+}
+.feedback-card h4,
+.feedback-card p {
+  color: black;
+}
+
+/* === Banner === */
+.banner-main {
+  background-color: #1565C0;
+  text-align: center;
+  padding: 50px 20px;
+  margin-top: 70px;
+}
+.banner-main p {
+  color: #fff;
+  padding: 20px;
+  font-size: larger;
+}
+.banner-btn {
+  background-color: #F97316;
+  padding: 13px 25px;
+  border: transparent;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+/* === More Info === */
+.moreInfo {
+  margin-top: 90px;
+  background-color: #1565C0;
+  padding: 15px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+}
+
+/* === Responsive Breakpoints === */
+@media (max-width: 1024px) {
+  .hero-main h1 {
+    font-size: 48px;
+  }
+  .sol-card {
+    width: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-main {
+    padding: 100px 5%;
+    text-align: center;
+  }
+  .hero-main h1 {
+    font-size: 38px;
+  }
+  .hero-main p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .hero-btn {
+    justify-content: center;
+  }
+  .sol-card {
+    width: 80%;
+  }
+  .chosse-card {
+    width: 80%;
+  }
+  .feedback-card {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-main {
+    padding: 80px 5%;
+  }
+  .hero-main h1 {
+    font-size: 32px;
+  }
+  .hero-main p {
+    font-size: 18px;
+  }
+  .sol-card,
+  .chosse-card,
+  .feedback-card {
+    width: 90%;
+    margin: 10px 0;
+  }
+  .banner-main p {
+    font-size: 16px;
+  }
+}
+
